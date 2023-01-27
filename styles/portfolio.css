@@ -176,3 +176,24 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+/* contact style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px ;
+}
+.contact .section-title{
+    text-align: center;
+}
+
+.contact input[type="text"],[type="email"], textarea{
+    margin-bottom: 24PX;
+    border:0;
+    width: 100%;
+    padding:18px 30px ;
+}
+
+.contact a{
+    text-decoration: none;
+}
